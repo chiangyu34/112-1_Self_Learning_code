@@ -66,7 +66,7 @@ for n in range(3, 7):
     original_data = [random.randint(0, 10**n) for i in range(10**n)]
     sorting_algorithms = [bubble, selection, insertion, quick]
 
-    for i in range(2, 3):
+    for i in range(2, 7):
         for algorithms, col in zip(sorting_algorithms, 'bcde'):         
             data = original_data.copy()
             t1 = time.time()
