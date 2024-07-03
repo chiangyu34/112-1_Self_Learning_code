@@ -60,7 +60,7 @@ s1['a5'].value = "第4次測試"
 s1['a6'].value = "第5次測試"
 s1['a7'].value = "平均"
 
-for n in range(3, 7):
+for n in range(3, 6):
     s2 = wb.copy_worksheet(s1)
     s2.title = 'data ' + str(10**n)
     original_data = [random.randint(0, 10**n) for i in range(10**n)]
